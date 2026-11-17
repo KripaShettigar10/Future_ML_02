@@ -1,4 +1,4 @@
-🎫 Customer Support Insights & Smart Ticket Management
+**🎫 Customer Support Insights & Smart Ticket Management**
 
 Future Interns – Machine Learning Internship | Task 02
 
