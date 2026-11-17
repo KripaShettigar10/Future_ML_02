@@ -1,40 +1,43 @@
 **🎫 Customer Support Insights & Smart Ticket Management**
 
-Future Interns – Machine Learning Internship | Task 02
+🚀 Future Interns | Machine Learning Internship | Task 02
+
+---
 
 📌 Project Overview
 
-This project focuses on building a Machine Learning system to classify customer support tickets into different categories and priority levels using Natural Language Processing (NLP).
+This project focuses on developing a Machine Learning system to classify customer support tickets into different categories and priority levels using Natural Language Processing (NLP).
 
-The goal is to explore how machine learning can help support teams organize customer requests, identify ticket priorities, and improve ticket management.
+The main objective is to explore how Machine Learning can help support teams organize customer requests, identify ticket priorities, and improve ticket management.
 
 🎯 Project Objectives
 
 - Analyze customer support ticket data.
-- Clean and preprocess text data using NLP techniques.
+- Perform text cleaning and preprocessing using NLP.
 - Convert text into numerical features using TF-IDF.
-- Build machine learning models for ticket category and priority classification.
-- Evaluate model performance using classification metrics.
-- Visualize ticket patterns using Power BI.
+- Build Machine Learning models for ticket classification.
+- Predict ticket categories and priority levels.
+- Evaluate model performance using ML metrics.
+- Visualize insights using Power BI.
 
 📂 Dataset Information
-Dataset - Customer Support Ticket Dataset
+Dataset Name - Customer Support Ticket Dataset
 Source - Kaggle
-Records - 8,469
-Attributes - 17
+Total Records - 8,469
+Total Attributes - 17
 Domain - Customer Support & NLP
 Format - CSV
 
-🛠️ Technologies Used
+🛠️ Technologies & Tools Used
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- NLTK
-- Scikit-learn
-- Matplotlib
-- Power BI
+- 🐍 Python
+- 📓 Jupyter Notebook
+- 🧮 Pandas
+- 🔢 NumPy
+- 📝 NLTK
+- 🤖 Scikit-learn
+- 📊 Matplotlib
+- 📈 Power BI
 
 ⚙️ Project Workflow
 
@@ -48,10 +51,24 @@ Format - CSV
 
 🤖 Machine Learning Models
 
-Two classification models were developed:
+1. Ticket Category Classification
 
-- Ticket Category Classification: Predicts the type of customer support ticket.
-- Ticket Priority Classification: Predicts the priority level of a ticket.
+Predicts the category of a customer support ticket:
+
+- Refund Request
+- Technical Issue
+- Cancellation Request
+- Product Inquiry
+- Billing Inquiry
+
+2. Ticket Priority Classification
+
+Predicts the priority level of a support ticket:
+
+- Critical
+- High
+- Medium
+- Low
 
 📊 Model Performance
 
@@ -62,45 +79,66 @@ Improved Category Model| 21.72%
 Original Priority Model| 25.74%
 Improved Priority Model| 26.15%
 
-The results indicate that the dataset's text features provide limited predictive information. Further improvements in data quality and feature engineering are required.
+Performance Note: The models achieved limited accuracy, indicating that the dataset's text features provide insufficient information for reliable classification. Further improvements in data quality and feature engineering are required.
 
 📈 Power BI Dashboard
 
-The dashboard presents:
+Customer Support Insights & Smart Ticket Management Dashboard
 
-- Total Support Tickets
-- Total Critical Tickets
-- Most Common Ticket Category
-- Ticket Category Distribution
-- Ticket Priority Distribution
-- Ticket Status Overview
-- Ticket Channel Analysis
+The dashboard includes:
+
+- 🎫 Total Support Tickets
+- 🚨 Total Critical Tickets
+- 📌 Most Common Ticket Category
+- 📊 Ticket Category Distribution
+- 🍩 Ticket Priority Distribution
+- 📋 Ticket Status Overview
+- 📈 Ticket Channel Analysis
 
 💡 Key Learnings
 
 - Understanding Natural Language Processing.
-- Performing text preprocessing and feature extraction.
-- Training and evaluating classification models.
-- Working with real-world-style customer support data.
-- Creating interactive data visualizations using Power BI.
+- Performing text cleaning and preprocessing.
+- Applying TF-IDF for feature extraction.
+- Training Machine Learning classification models.
+- Evaluating models using accuracy, precision, recall, and F1-score.
+- Creating visualizations using Power BI.
 
 🔮 Future Improvements
 
-- Use higher-quality, human-labelled ticket datasets.
-- Improve text feature extraction.
-- Experiment with advanced classification algorithms.
+- Use high-quality, human-labelled datasets.
+- Improve text preprocessing and feature extraction.
+- Experiment with advanced Machine Learning algorithms.
 - Improve model accuracy and reliability.
 - Develop a user-friendly ticket classification application.
-
-👩‍💻 About Me
-
-Name: Kripa Shettigar
-Course: Bachelor of Science (B.Sc.)
-Specialization: Data Science
-Institution: St. Aloysius (Deemed to be University), Mangaluru
 
 🎓 Internship Details
 
 Organization: Future Interns
+
 Internship Domain: Machine Learning
-Task: Task 02 – Customer Support Ticket Classification
+
+Task Number: Task 02
+
+Project: Customer Support Ticket Classification
+
+---
+
+👩‍💻 About Me
+
+Hello! I'm Kripa Shettigar, a B.Sc. Data Science student at St. Aloysius (Deemed to be University), Mangaluru.
+
+I am passionate about Data Science, Machine Learning, and exploring how technology can solve real-world problems.
+
+I enjoy learning new technologies, working on practical projects, and continuously improving my technical skills.
+
+🌟 Areas of Interest
+
+- 📊 Data Science
+- 🤖 Machine Learning
+- 📈 Data Analytics
+- 🐍 Python Programming
+- 📉 Data Visualization
+
+---
+Thank you for visiting my repository! ❤️
